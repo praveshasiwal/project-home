@@ -1,0 +1,23 @@
+body {
+    background-image: url("./background.jpg"); 
+    width: auto; 
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-color: #b983ff;  
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: #32dae7;
+}
+
+.searchbar {
+    border: 10px solid black;
+    border-radius: 15px; 
+    margin-top: 15px;
+    width: 90%;
+    max-width: 710px;
+    margin-left: 5%;
+}
